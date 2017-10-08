@@ -1,3 +1,5 @@
-get '/' do
-  puts "hello~~~"
+class Petora < Sinatra::Base
+  get '/' do
+    "hello~~~"
+  end
 end
