@@ -1,0 +1,44 @@
+I, [2017-10-09T00:31:06.154002 #6110]  INFO -- : Refreshing Gem list
+I, [2017-10-09T00:31:08.215444 #6110]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2017-10-09T00:31:08.225089 #6110]  INFO -- : worker=0 spawning...
+I, [2017-10-09T00:31:08.227971 #6110]  INFO -- : worker=1 spawning...
+I, [2017-10-09T00:31:08.229875 #6115]  INFO -- : worker=0 spawned pid=6115
+I, [2017-10-09T00:31:08.230402 #6115]  INFO -- : worker=0 ready
+I, [2017-10-09T00:31:08.233807 #6110]  INFO -- : worker=2 spawning...
+I, [2017-10-09T00:31:08.235986 #6118]  INFO -- : worker=1 spawned pid=6118
+I, [2017-10-09T00:31:08.236624 #6118]  INFO -- : worker=1 ready
+I, [2017-10-09T00:31:08.237345 #6110]  INFO -- : worker=3 spawning...
+I, [2017-10-09T00:31:08.239574 #6121]  INFO -- : worker=2 spawned pid=6121
+I, [2017-10-09T00:31:08.240224 #6121]  INFO -- : worker=2 ready
+I, [2017-10-09T00:31:08.241174 #6110]  INFO -- : worker=4 spawning...
+I, [2017-10-09T00:31:08.243351 #6124]  INFO -- : worker=3 spawned pid=6124
+I, [2017-10-09T00:31:08.244060 #6124]  INFO -- : worker=3 ready
+I, [2017-10-09T00:31:08.244865 #6110]  INFO -- : worker=5 spawning...
+I, [2017-10-09T00:31:08.246864 #6127]  INFO -- : worker=4 spawned pid=6127
+I, [2017-10-09T00:31:08.247411 #6127]  INFO -- : worker=4 ready
+I, [2017-10-09T00:31:08.250886 #6110]  INFO -- : worker=6 spawning...
+I, [2017-10-09T00:31:08.253158 #6130]  INFO -- : worker=5 spawned pid=6130
+I, [2017-10-09T00:31:08.253801 #6130]  INFO -- : worker=5 ready
+I, [2017-10-09T00:31:08.254809 #6110]  INFO -- : worker=7 spawning...
+I, [2017-10-09T00:31:08.256922 #6133]  INFO -- : worker=6 spawned pid=6133
+I, [2017-10-09T00:31:08.257554 #6133]  INFO -- : worker=6 ready
+I, [2017-10-09T00:31:08.258741 #6110]  INFO -- : worker=8 spawning...
+I, [2017-10-09T00:31:08.260901 #6136]  INFO -- : worker=7 spawned pid=6136
+I, [2017-10-09T00:31:08.261654 #6136]  INFO -- : worker=7 ready
+I, [2017-10-09T00:31:08.262705 #6110]  INFO -- : worker=9 spawning...
+I, [2017-10-09T00:31:08.264850 #6139]  INFO -- : worker=8 spawned pid=6139
+I, [2017-10-09T00:31:08.265501 #6139]  INFO -- : worker=8 ready
+I, [2017-10-09T00:31:08.266737 #6110]  INFO -- : master process ready
+I, [2017-10-09T00:31:08.268856 #6142]  INFO -- : worker=9 spawned pid=6142
+I, [2017-10-09T00:31:08.269475 #6142]  INFO -- : worker=9 ready
+I, [2017-10-09T00:37:28.835627 #6110]  INFO -- : reaped #<Process::Status: pid 6115 exit 0> worker=0
+I, [2017-10-09T00:37:28.836003 #6110]  INFO -- : reaped #<Process::Status: pid 6118 exit 0> worker=1
+I, [2017-10-09T00:37:28.836169 #6110]  INFO -- : reaped #<Process::Status: pid 6121 exit 0> worker=2
+I, [2017-10-09T00:37:28.836314 #6110]  INFO -- : reaped #<Process::Status: pid 6124 exit 0> worker=3
+I, [2017-10-09T00:37:28.836464 #6110]  INFO -- : reaped #<Process::Status: pid 6127 exit 0> worker=4
+I, [2017-10-09T00:37:28.836607 #6110]  INFO -- : reaped #<Process::Status: pid 6130 exit 0> worker=5
+I, [2017-10-09T00:37:28.836753 #6110]  INFO -- : reaped #<Process::Status: pid 6133 exit 0> worker=6
+I, [2017-10-09T00:37:28.836895 #6110]  INFO -- : reaped #<Process::Status: pid 6136 exit 0> worker=7
+I, [2017-10-09T00:37:28.837042 #6110]  INFO -- : reaped #<Process::Status: pid 6139 exit 0> worker=8
+I, [2017-10-09T00:37:28.837185 #6110]  INFO -- : reaped #<Process::Status: pid 6142 exit 0> worker=9
+I, [2017-10-09T00:37:28.837586 #6110]  INFO -- : master complete

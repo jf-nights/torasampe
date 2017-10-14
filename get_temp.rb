@@ -30,6 +30,6 @@ open(file_name, "a") do |f|
 end
 
 if Time.now.min == 0
-puts msg = "#{Time.now.strftime("%Y-%m-%d %H:%M:%S")}の水温は#{temperature}℃です"
-client.update(msg)
+  puts msg = "#{Time.now.strftime("%Y-%m-%d %H:%M:%S")}の水温は#{temperature}℃です"
+  client.update(msg)
 end
