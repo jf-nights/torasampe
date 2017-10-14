@@ -11,7 +11,7 @@ google.charts.setOnLoadCallback(drawBasic);
 
 function drawBasic() {
   var data = new google.visualization.DataTable();
-  data.addColumn('string', "あああ");
+  data.addColumn('string', "時間");
   data.addColumn('number', '水温');
   data.addColumn('number', '室温');
 
@@ -20,9 +20,9 @@ function drawBasic() {
   ]);
 
   var options = {
-    title: '本日の水温',
-    hAxiis:{
-      title: 'あああああ'
+    title: '今日の水温・室温',
+    hAxis:{
+      title: '時間'
     },
     vAxis: {
       title: '温度',
@@ -39,6 +39,7 @@ function drawBasic() {
     </script>
   </head>
   <body>
+    <p>まりもちゃんの水温とついでに部屋の温度です。</p>
     <div id="chart_div"></div>
   </body>
 </html>

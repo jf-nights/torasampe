@@ -1,6 +1,12 @@
 class Petora < Sinatra::Base
   get '/' do
-    @data = '["aa",3,2]'
+    tmp = []
+    # ./temperature/%Y%m%d.csv
+    today = Time.now.strftime("%Y%m%d")
+    open("./temperature/#{today}.csv").each_line do |line|
+      tmp << "[" + line.chomp + "]"
+    end
+    @data = tmp.join(",")
     erb :index
   end
 end
