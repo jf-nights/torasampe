@@ -1,5 +1,6 @@
 class Petora < Sinatra::Base
   get '/' do
-    "hello~~~"
+    @data = '["aa",3,2]'
+    erb :index
   end
 end
