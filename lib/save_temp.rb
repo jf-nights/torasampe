@@ -12,11 +12,12 @@ temperature_a = (result.split("\s").last.gsub("t=","").to_i / 1000.0).round(2)
 
 # ファイルに保存
 # 保存するディレクトリ
-Dir.mkdir("./temperature") if !File.exists?("./temperature")
+DIR_PATH = "/home/pi/codes/torasampe/temperature"
+Dir.mkdir(DIR_PATH) if !File.exists?(DIR_PATH)
 
 # 保存するファイル
 # 1日ごとにつくる
-file_name = "./temperature/" + Time.now.strftime("%Y%m%d") + ".csv"
+file_name = "#{DIR_PATH}/" + Time.now.strftime("%Y%m%d") + ".csv"
 File.open(file_name).close if File.exists?(file_name)
 open(file_name, "a") do |f|
   f.puts("\"#{Time.now.strftime("%H:%M")}\",#{temperature_w},#{temperature_a}")
