@@ -12,7 +12,7 @@ temperature_a = (result.split("\s").last.gsub("t=","").to_i / 1000.0).round(2)
 
 # ファイルに保存
 # 保存するディレクトリ
-DIR_PATH = "/home/pi/codes/torasampe/temperature"
+DIR_PATH = "#{Dir.pwd}/../temperature"
 Dir.mkdir(DIR_PATH) if !File.exists?(DIR_PATH)
 
 # 保存するファイル
